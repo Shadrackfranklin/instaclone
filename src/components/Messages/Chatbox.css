@@ -1,0 +1,184 @@
+.messbox{
+    /* border: red 1px solid; */
+    display: block;
+    position: relative;
+    left: 24.58%;
+    top:-9px;
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 450px;
+    
+}
+
+.messbox .topbar{
+    /* border: blue solid 1px; */
+    border-bottom: solid 1px #DBDBDB;
+    border-left: solid 1px #DBDBDB;
+    background-color: white;
+    height: 65px;
+    left: 24.61%;
+    width: 72.7%;
+    margin-top: 0px;
+    padding: 10px 10px 0px 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+}
+.messbox .topbar .topimg{
+    width: 50px;
+    height: 50px;
+}
+.messbox .topbar .name{
+    /* border: solid green 1px; */
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.messbox .topbar .left{
+    display: flex;
+    /* border: solid rgb(255, 149, 0) 1px; */
+}
+.topbar .left * {
+    cursor: pointer;
+}
+.messbox .topbar .right{
+    /* border: solid rgb(255, 149, 0) 1px; */
+    display: flex;
+    align-content: center;
+
+}
+.messbox .topbar .right *{
+    cursor: pointer;
+}
+.messbox .topbar .right img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.messbox .prof{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90px;
+}
+/* .messbox .prof *{
+    border: solid rgb(0, 255, 162) 1px;
+
+} */
+.messbox .prof img{
+    width: 89px;
+    height: 90px;
+    margin-left: 200px;
+}
+.messbox .prof p{
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: bold;
+    width: 500px;
+}
+.messbox .prof span{
+    color: #737373;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.messbox .prof button{
+    border: none;
+    font-weight: bold;
+    font-size:15px ;
+    padding: 10px 9px;
+    width: fit-content;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.messbox .prof button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.124);
+}
+.messbox .chat{
+    /* border: violet solid 1px; */
+    height: 594px;    
+    display: block;
+    padding-top: 50px;
+}
+/* .messbox .chat *{
+    border: solid 1px brown;
+} */
+.chattime{
+    text-align: center;
+    color: #6A697E;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.sender{
+    display: flex;
+    padding-left: 15px;
+}
+.sender img{
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    margin-right: 10px;
+}
+.sender p{
+    font-size: 17px;
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 30px;
+}
+.receiver p{
+    text-align: right;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 17px;
+    background-color: #3797F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.typebox{
+    position: fixed;
+    bottom: 0px;
+    left: 24.61%;
+    background-color: white;
+    border-left: #DBDBDB solid 1px;
+    width:75%;
+
+}
+.typeboxhead{
+    border: solid 1px #DBDBDB;
+    border-radius: 29px;
+    padding:  5px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+.typeboxhead img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.typeboxhead .lefttype img{
+    margin-top:5px ;
+}
+.typeboxhead .lefttype input{
+    border:none ;
+    outline: none;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+    width: 1000px;
+}
+.typeboxhead .lefttype input::placeholder{
+    font-size: 15px;
+}
+.typeboxhead .righttype img{
+    padding: 3px;
+}

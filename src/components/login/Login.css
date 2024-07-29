@@ -1,0 +1,109 @@
+.logcon{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: #ff0000 solid 1px; */
+    font-family: Roboto;
+
+
+}
+.con{
+    border: #c5c5c5 solid 1px;
+    display: block;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    height: fit-content;
+}
+/* .con * {
+    border: rgb(94, 0, 195) solid 1px;
+} */
+.con .logo svg{
+    width: 250px;
+    height: auto;
+    padding: 50px;
+}
+.con .username, .password{
+    height: 50px;
+    background-color: #FAFAFA;
+    border: solid 1px #c5c5c5;
+    border-radius: 3px;
+
+}
+.con .username, .password::placeholder{
+    padding-left: 10px;
+}
+.con .username{
+    width: 400px;
+    margin: 10px 40px 0px 40px ;
+}
+.con .password{
+    width: 407px;
+    margin: 10px 40px 20px 40px;
+
+}
+.con .login{
+    width: 412px;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 0px;
+    background-color: #4CB5F9;
+    color: white;
+    font-size: 18px;
+}
+.con .liner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.con .line{
+    height: 0px;
+    width: 40%;
+    margin:0px 50px;
+    border-top: #c5c5c5 solid 1.5px ;
+}
+.con .or{
+    width: fit-content;
+    color: grey;
+    font-weight: bold;
+}
+.con .facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    text-decoration: none;
+    color: #105CA0;
+    font-weight: bold;
+}
+.con .forgot{
+    text-decoration: none;
+    color: #105CA0;
+}
+.logcon .bot{
+    margin-top: 14px;
+    border: #c5c5c5 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:17px ;
+    padding: 10px 0px;
+}
+.logcon .bot a{
+    text-decoration: none;
+    color: #4CB5F9;
+    font-weight: bold;
+    margin-left: 4px;
+}
+.logcon .store {
+    /* border: blue solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -20px;
+}

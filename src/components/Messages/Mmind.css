@@ -1,0 +1,129 @@
+.main{
+    border-right: 1px #DBDBDB solid;
+    position: fixed;
+    left: 77px;
+    width: 370px;
+    height: 100vb;
+    padding-top: 40px;
+    padding-right: 10px;
+    margin: 0%;
+}
+.top{
+    /* border: blue solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.top select{
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+.notes{
+    /* border: green solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 5px;
+    width: 80%;
+    cursor: pointer;
+    
+
+}
+
+.notes img{
+    width: 80px;
+}
+
+.cloud {
+width: 90px;
+height: 40px;
+background: #fffefe;
+border-radius: 10%;
+position: relative;
+box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.322);
+
+
+}
+.cloud .song{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+.cloud .auth{
+    font-size: 12px;
+    margin: 0px 0px 0px 25px;
+    color: #8f8f8f;
+}
+.cloud img{
+    margin: 0px;
+    width: 20px;
+}
+.cloud div{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 5px 0px 5px;
+}
+.mine{
+    width: 50px;
+    height: 25px;
+}
+
+
+.main .tag{
+    /* border: greenyellow solid 1px; */
+    display: flex;
+    padding: 0px 18px;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* .main .user{
+    border: orange solid 1px;
+} */
+
+.main .user a{
+    /* border: yellow solid 1px; */
+    width: 355px;
+    padding: 0px 0px 15px 25px;
+    display: flex;
+    align-content: space-between;
+    text-decoration: none;
+
+}
+.user img{
+    width: 60px;
+    height: 60px;
+}
+.user .usrrt{
+    /* border: purple solid 1px; */
+    width: 150px;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+.usrrt .head{
+    padding: 0% 50px 0px 0px;
+    margin: 0%;
+    font-family: Roboto;
+    font-size: 15px;
+    color: black;
+}
+.usrrt .data{
+    /* border: red solid 1px; */
+    color: #8f8f8f;
+    margin: 0%;
+    width: 100%;
+    font-size: 14px;
+}
+.main .user a:hover{
+    background-color: #e9e9e948;
+}

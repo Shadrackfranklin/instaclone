@@ -1,0 +1,33 @@
+.nav{
+    position: fixed;
+    border-right: 1px #DBDBDB solid;
+    width: 75px;
+    padding: 10px 0px 0px 0px;
+    
+    bottom: 0px;
+}
+.nav a{
+    /* border: 1px solid red; */
+    padding-right: 0px;
+    align-content: space-between;
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    margin: 10px 0px 0px 5px;
+    padding: 10px 40px 10px 10px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.1s ease-in  ;
+}
+.nav a:hover{
+    background-color: #F2F2F2;
+}
+.mesul1{
+    margin-bottom: 280px;
+}
+.nav img{
+    width: 27px;
+}

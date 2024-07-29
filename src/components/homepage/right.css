@@ -1,0 +1,86 @@
+.right-part{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin:0% 0% 0% 70%;
+    position:absolute;
+    top: 35px;
+    width: 300px;
+    height: 500px;
+    font-family: 'Roboto';
+}
+.right-part a{
+    text-decoration: none;
+    color: inherit;
+}
+.right-part img{
+    width: 50px;
+    margin-right: 3px ;
+    cursor: pointer;
+
+}
+.align_right{
+    /* border: solid blue 1px; */
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.align_right p{
+    /* border: #00376B solid 1px; */
+    display: block;
+    position: relative;
+    bottom: 30px;
+    left: 55px;
+    font-size: 13px;
+    color: #a5a5a5;
+}
+
+
+.right-part span{
+    /* border: solid yellow; */
+    position: relative;
+    bottom: 17px; 
+    cursor: pointer;
+  
+}
+.right_font{
+    font-weight: bold;
+    font-size: 14px;
+}
+.but{
+    color: #23A3F7 ;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+.but:hover{
+    color: #00376B ;
+}
+.suggest{
+    /* border: green 1px solid; */
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 500;
+}
+.suggest button{
+    
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+.suggest button:hover{
+    color: #848484 ;
+}
+.about{
+    color: #D4D4D4 ;
+    font-size: 12px;  
+    padding-top: 20px;  
+}
