@@ -11,6 +11,7 @@ export default function Right() {
                     </a>
                     <button className='but' > Switch</button>  {/*onClick={() => window.location.href = 'https://www.instagram.com/'}*/}
                 </div>
+                
                 <div className="suggest">
                     <p>
                         Suggested for you
