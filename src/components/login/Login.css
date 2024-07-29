@@ -34,15 +34,13 @@
     border-radius: 3px;
 
 }
-.con .username, .password::placeholder{
-    padding-left: 10px;
-}
+
 .con .username{
     width: 400px;
     margin: 10px 40px 0px 40px ;
 }
 .con .password{
-    width: 407px;
+    width: 400px;
     margin: 10px 40px 20px 40px;
 
 }

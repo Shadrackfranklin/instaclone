@@ -5,18 +5,16 @@ import animal from '../../images/animal.png'
 import koke from '../../images/koke.png'
 import like from '../../images/like.png'
 
-let click=false;
+let click = false;
 function redlike(evt) {
     const qwert = evt.target.id;
-    if(click== false)
-    {
-        document.getElementById(qwert).src=like;
-        click=true;
+    if (click == false) {
+        document.getElementById(qwert).src = like;
+        click = true;
     }
-    else
-    {
-        document.getElementById(qwert).src='https://img.icons8.com/?size=100&id=85038&format=png&color=000000';
-        click=false;
+    else {
+        document.getElementById(qwert).src = 'https://img.icons8.com/?size=100&id=85038&format=png&color=000000';
+        click = false;
     }
 }
 
@@ -125,7 +123,7 @@ export default function Mid() {
                     </div>
                     <div className="postcap">
                         <p className="likedby">Liked by <span style={{ fontWeight: 'bold' }}>natwebbcomedy</span> and <span style={{ fontWeight: 'bold' }}>others </span></p>
-                        <p className="name"> <span style={{ fontWeight: 'bold' }}>Brian_o_connor </span> Profesional photograph by <span style={{ color: '#23527F' }}>📸@jsb_wildlife_photography</span></p>
+                        <p className="name"> <span style={{ fontWeight: 'bold' }}>Brian_o_connor </span> Professional photograph by <span style={{ color: '#23527F' }}>📸@jsb_wildlife_photography</span></p>
                         <p className="view">View all 2,200 comments</p>
                         <input type='text' className="addcomment" placeholder='Add a comment...'></input>
                     </div>
