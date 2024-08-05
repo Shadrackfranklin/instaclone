@@ -81,11 +81,6 @@ export default function Nogame() {
                             <p>bye bro✋</p>
                         </div>
 
-
-
-
-
-
                         <div className='typebox' >
                             <div className="typeboxhead">
                                 <div className="lefttype">
