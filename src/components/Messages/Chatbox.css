@@ -165,6 +165,16 @@
     height: 30px;
     cursor: pointer;
 }
+.typeboxhead .lefttype{
+    display: flex;
+    align-items: center;
+}
+.typeboxhead form{
+    /* border: solid 1px red; */
+    bottom: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
 .typeboxhead .lefttype img{
     margin-top:5px ;
 }
@@ -172,8 +182,6 @@
     border:none ;
     outline: none;
     position: relative;
-    bottom: 10px;
-    margin-left: 10px;
     width: 1000px;
 }
 .typeboxhead .lefttype input::placeholder{

@@ -11,53 +11,53 @@ export default function Left() {
                 <ul className='ul1' >
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=2797&format=png&color=000000" alt="" />
-                        <span style={{ fontWeight: "bold" }}> Home</span>
+                        <span title='home' style={{ fontWeight: "bold" }}> Home</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=132&format=png&color=000000" alt="" />
-                        <span> Search</span>
+                        <span title='search'> Search</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=9672&format=png&color=000000" alt="" />
-                        <span>Explore</span>
+                        <span title='explore'>Explore</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=J6T4OOFSL7SW&format=png&color=000000" alt="" />
-                        <span>Reels</span>
+                        <span title='reels'>Reels</span>
                     </a>
 
                     <a href='/messages' >
                         <img src="https://img.icons8.com/?size=100&id=84cvQDDU8mai&format=png&color=1A1A1A" alt="" />
-                        <span>Messages</span>
+                        <span title='messages'>Messages</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=87&format=png&color=000000" alt="" />
-                        <span>Notification</span>
+                        <span title='notification'>Notification</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=GlTdJzFYfVzw&format=png&color=000000" alt="" />
-                        <span>Create</span>
+                        <span title='create'>Create</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=kDoeg22e5jUY&format=png&color=000000" alt="" />
-                        <span>Profile</span>{/*onClick={() => window.location.href = 'https://www.instagram.com/'}*/}
+                        <span title='profile'>Profile</span>{/*onClick={() => window.location.href = 'https://www.instagram.com/'}*/}
                     </a>
                 </ul >
                 <ul className='ul2'>
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=oykyblY20T6o&format=png&color=000000" alt="" />
-                        <span> Threads</span>
+                        <span title='threads'> Threads</span>
                     </a>
 
                     <a  >
                         <img src="https://img.icons8.com/?size=100&id=36389&format=png&color=000000" alt="" />
-                        <span>More</span>
+                        <span title='more'>More</span>
                     </a>
                 </ul>
             </div>

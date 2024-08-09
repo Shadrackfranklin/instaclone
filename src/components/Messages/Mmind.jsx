@@ -11,7 +11,7 @@ export default function Mmind() {
             <div className="main">
                 <div className="top">
 
-                    <select name="" id="">
+                    <select  id="">
                         <option value="">
                             Your_Profile
                         </option>
@@ -22,7 +22,7 @@ export default function Mmind() {
 
                 <div className="notes">
                     <a >
-                        <div class="cloud mine">
+                        <div className="cloud mine">
                             <p className="" style={{ color: '#8f8f8f' }}>Note..</p>
                         </div>
 
@@ -31,7 +31,7 @@ export default function Mmind() {
                     </a>
 
                     <a >
-                        <div class="cloud">
+                        <div className="cloud">
                             <div>
                                 <img src="https://img.icons8.com/?size=100&id=nyZALpLxZQgr&format=png&color=000000" alt="" />
                                 <p className="song">GiveThanks</p>
@@ -44,7 +44,7 @@ export default function Mmind() {
                     </a>
 
                     <a >
-                        <div class="cloud">
+                        <div className="cloud">
                             <div>
                                 <img src="https://img.icons8.com/?size=100&id=nyZALpLxZQgr&format=png&color=000000" alt="" />
                                 <p className="song">hello world</p>

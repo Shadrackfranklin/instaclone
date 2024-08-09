@@ -1,7 +1,27 @@
 import React from 'react'
 import Meslayout from '../../Meslayout'
 import './Chatbox.css'
+
 export default function Nogame() {
+
+
+    const userform = document.getElementsByClassName('usertext')
+    const userinput = document.getElementsByClassName('inpbox')
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const inputValue = event.target.elements.inpbox.value;
+        console.log(inputValue); // Do something with the input value
+        
+        //nope,not working
+        <div className='chat'> 
+            <div className="sender">
+                <img src="https://nealguides.com/wp-content/uploads/2020/04/cropped-circle.png" alt="" />
+                <p>{inputValue}</p>
+            </div>
+        </div>
+    }
+
     return (
         <>
             <Meslayout>
@@ -85,7 +105,9 @@ export default function Nogame() {
                             <div className="typeboxhead">
                                 <div className="lefttype">
                                     <img src="https://img.icons8.com/?size=100&id=43911&format=png&color=000000" alt="" />
-                                    <input type="text" className="inpbox" placeholder='Message...'/>
+                                    <form onSubmit={handleSubmit} className="usertext">
+                                        <input name='inpbox' type="text" placeholder='Message...' />
+                                    </form>
 
                                 </div>
                                 <div className="righttype">

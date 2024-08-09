@@ -88,8 +88,9 @@ export default function Alber() {
                             <div className="typeboxhead">
                                 <div className="lefttype">
                                     <img src="https://img.icons8.com/?size=100&id=43911&format=png&color=000000" alt="" />
-                                    <input type="text" className="inpbox" placeholder='Message...' />
-
+                                    <form className="usertext">
+                                        <input type="text" className="inpbox" placeholder='Message...' />
+                                    </form>
                                 </div>
                                 <div className="righttype">
                                     <img src="https://img.icons8.com/?size=100&id=ZNyAxEX9vDxS&format=png&color=000000" alt="" />
